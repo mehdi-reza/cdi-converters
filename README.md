@@ -1,6 +1,5 @@
 # cdi-converters
 
 ## Run
-mvn clean package
-
-mvn exec:java -Dexec.mainClass="cditest.Launcher"
+1. mvn clean package
+2. mvn exec:java -Dexec.mainClass="cditest.Launcher"
