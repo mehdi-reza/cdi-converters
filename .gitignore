@@ -1,6 +1,7 @@
 #IDE
 .project
 .settings
+.classpath
 target
 
 # Compiled class file
