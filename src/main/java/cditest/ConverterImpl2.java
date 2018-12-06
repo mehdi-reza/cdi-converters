@@ -1,6 +1,6 @@
 package cditest;
 
-@Converter
+
 public class ConverterImpl2 implements IConverter<SomeDto, SomeModel> {
 
 	public SomeModel convert(SomeDto source) {

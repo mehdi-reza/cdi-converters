@@ -15,11 +15,11 @@ public class Launcher {
 	}
 
 	@Inject
-	@Converter
+	//@Converter
 	IConverter<SomeDto, SomeModel> converter1;
 
 	@Inject
-	@Converter
+	//@Converter
 	IConverter<SomeModel, SomeDto> converter2;
 	
 	private void run() {
@@ -27,5 +27,6 @@ public class Launcher {
 		converter1.convert(new SomeDto());
 		
 		converter2.convert(new SomeModel());
+		
 	}
 }
